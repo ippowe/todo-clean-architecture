@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.20",
-    "@types/node": "12.11.7",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
     "core": "file:../core",
@@ -13,6 +12,7 @@
     "react-redux": "^7.1.1",
     "react-scripts": "3.2.0",
     "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
     "typescript": "3.6.4"
   },
   "scripts": {
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^12.11.7",
     "@types/react-redux": "^7.1.5",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
     "@typescript-eslint/parser": "^2.5.0",
