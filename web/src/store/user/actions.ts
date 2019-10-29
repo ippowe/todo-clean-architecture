@@ -1,6 +1,10 @@
-import { Credential, User } from "core/lib/entities";
-import { SmapleService } from "core/lib/services";
-import { SignInInteractor, SignUpInteractor } from "core/lib/useCases";
+import {
+  Credential,
+  User,
+  SmapleService,
+  SignInInteractor,
+  SignUpInteractor
+} from "core";
 import { Dispatch } from "redux";
 
 export const SIGN_IN_REQUEST = "USER/SIGN_IN_REQUEST" as const;

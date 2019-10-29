@@ -6,6 +6,7 @@ import {
   compose
 } from "redux";
 import thunk from "redux-thunk";
+import { reducer as User } from "./user";
 
 declare global {
   // Add Redux Dev Tool Property into Window Object
@@ -14,7 +15,7 @@ declare global {
   }
 }
 
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({ User });
 
 let store: Store;
 export const configureStore = (): Store => {

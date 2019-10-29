@@ -1,4 +1,4 @@
-import { User } from "core/lib/entities";
+import { User } from "core";
 
 export interface StateType {
   readonly user: User | null;
