@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 
-import App from "./App";
+import App from "./components/App";
 
 import { configureStore } from "./store";
-import "./index.css";
+import "./styleSheet/index.css";
 
 const rootElement: HTMLElement | null = document.getElementById("root");
 const ConnectedApp = (
